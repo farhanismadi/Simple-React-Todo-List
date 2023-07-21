@@ -35,6 +35,7 @@ const TodoListForm = (props) => {
           placeholder="What you want to do?"
           onChange={titleChangeHandler}
           maxlength="40"
+          content="width=device-width, initial-scale=1, maximum-scale=1"
         />
       </div>
       <div className="todolist__controls">
@@ -43,6 +44,7 @@ const TodoListForm = (props) => {
           value={enteredDescription}
           maxlength="100"
           onChange={descriptionChangeHandler}
+          content="width=device-width, initial-scale=1, maximum-scale=1"
         />
       </div>
       <div className="todolist__controls">
