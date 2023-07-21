@@ -1,0 +1,36 @@
+.todo-item {
+  display: flex;
+  background-color: #f1eff1;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  max-width: 400px;
+  text-align: start;
+  padding: 0 1rem;
+  flex: 0 0 28%;
+}
+
+.todo-item h3 {
+  margin: 0;
+}
+
+.todo-item p {
+  margin: 0 0 2rem;
+}
+
+@media screen and (max-width: 1100px) {
+  .todo-item {
+    display: flex;
+    background-color: #f1eff1;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+    max-width: 400px;
+    text-align: start;
+    padding: 0 1rem;
+    flex: 0 0 100%;
+  }
+}
